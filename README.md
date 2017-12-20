@@ -73,4 +73,5 @@ class { 'rhsm':
 
 ## Limitations
 
+
 Well, only RedHat is supported :)

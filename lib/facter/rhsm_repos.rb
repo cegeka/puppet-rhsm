@@ -1,5 +1,5 @@
 Facter.add('rhsm_repos') do
-  confine osfamily: :RedHat
+  confine :osfamily => 'RedHat'
   setcode do
     repos = Array.[]
     if Facter::Util::Resolution.exec('subscription-manager status && echo true') == 'true'

@@ -75,3 +75,4 @@ class { 'rhsm':
 
 
 Well, only RedHat is supported :)
+
